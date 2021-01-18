@@ -9,3 +9,5 @@ for item in range(1, how_high + 1):
     times_table = "{} × {} = {}"\
         .format(item, table, item * table)
     print(times_table)
+
+print("Thank you for using my program")
