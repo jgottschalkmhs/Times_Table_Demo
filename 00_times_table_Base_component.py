@@ -47,7 +47,7 @@ def instructions():
 
 # Main routine
 
-show_instructions = input("Have you used this program before? ")
+show_instructions = input("Have you used this program before? ").lower()
 
 if show_instructions == "no":
     instructions()
