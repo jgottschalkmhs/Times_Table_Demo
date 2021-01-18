@@ -45,6 +45,19 @@ def instructions():
     return ""
 
 
+def yes_no(question):
+    valid = False
+    while not valid:
+        response = input(question)
+        
+        if response == "y" or response == "yes":
+            return response
+        elif response == "n" or response == "no":
+            return response
+        else:
+            print("Please enter yes / no")
+
+
 # Main routine
 
 show_instructions = input("Have you used this program before? ").lower()
