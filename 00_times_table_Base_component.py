@@ -53,13 +53,4 @@ if show_instructions == "no":
     instructions()
 
 # Get input
-table = int_check("Which times table? ", 1)
-how_high = int_check("How high? ", 1)
-
-# output via a loop
-for item in range(1, how_high + 1):
-    times_table = "{} × {} = {}"\
-        .format(item, table, item * table)
-    print(times_table)
-
-print("Thanks for using my program")
+print("This code has been sabotaged!")
