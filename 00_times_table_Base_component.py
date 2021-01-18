@@ -37,7 +37,20 @@ def int_check(question, low=None, high=None):
             continue
 
 
+def instructions():
+    print("Choose the times table you want to generate.")
+    print()
+    print("Choose how high you want to go.")
+    print()
+    return ""
+
+
 # Main routine
+
+show_instructions = input("Have you used this program before? ")
+
+if show_instructions == "no":
+    instructions()
 
 # Get input
 table = int_check("Which times table? ", 1)
