@@ -40,3 +40,4 @@ def int_check(question, low=None, high=None):
 # Main routine
 
 table = int_check("Times Table? ", 1)
+how_high = int_check("how high? ", 1)
